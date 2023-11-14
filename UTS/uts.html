@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Nicky Fajaelani</title>
+    <style>
+        body {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+
+        #tombol {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+   <fieldset>
+    <legend>Mahasiswa STT-NF</legend>
+    <table>
+        <tr>
+            <td>Cari Sivitas Akademika</td>
+            <td><input type="search" id="search" name="search" placeholder="search"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>Nama Lengkap :</td>
+            <td> Nicky Fajaelani</td>
+        </tr>
+        <tr>
+            <td>Asal Prodi :</td>
+            <td> Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>Status :</td>
+            <td> Mahasiswa</td>
+        </tr>
+    </table>
+    
+
+    <label> Jenis Kendaraan :</label>
+        <input type="radio"> Mobil
+        <input type="radio"> Motor
+    
+    <form action="#">
+        <table>
+            <tr>
+                <td>
+                    <label for="nopol">NoPol</label>
+                </td>
+
+                <td>
+                    <input type="number" name="nopol" id="nopol">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="merk">Merk</label>
+                </td>
+
+                <td>
+                    <input type="text" name="merk" id="merk">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="uploadstnk">Upload STNK</label>
+                </td>
+
+                <td>
+                    <input type="number" name="uploadstnk" id="uploadstnk" >
+                    <input type="button" value="Browse">
+                </td>
+            </tr>
+        </table>
+        <div id="tombol">
+            <button >Daftar</button>
+        </div>
+    </form>
+   </fieldset>
+</body>
+</html>
