@@ -33,17 +33,16 @@ article{
     background-color: white;
     flex: 4;
     padding: 10px;
-    order: 2;
 }
 
 aside{
-    background-color: pink;
+    background-color: aqua;
     flex: 1;
     padding: 10px;
 }
 
 nav{
-    background-color: aqua;
+    background-color: pink;
     flex: 1;
     padding: 10px;
 
