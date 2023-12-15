@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan</title>
+</head>
+<body>
+    <h1>Menghitung Jumlah Dua Bilangan</h1>
+    <div>
+        <label for="angka1">Angka Pertama:</label>
+        <input type="number" id="angka1">
+    </div>
+    <div>
+        <label for="angka2">Angka Kedua:</label>
+        <input type="number" id="angka2" onchange="HitungJumlah()">
+        <button onclick="HitungJumlah()">Hitung</button>
+    </div>
+    <hr>
+    <p>Hasil Penjumlahan : <strong><span id="hasil"></span></strong></p>
+    <!-- Membuat Script JavaScript untuk menghitung jumlah -->
+    <script>
+        function HitungJumlah(){
+            // Mendapatkan nilai dari input angka1 dan angka2
+            var x = document.getElementById("angka1").value;
+            var y = document.getElementById("angka2").value;
+            // Melakukan pengisian ke elemen dengan id "hasil"
+            document.getElementById("hasil").innerHTML = parseInt(x) + parseInt(y);
+            }
+    </script>
+</body>
+</html>
